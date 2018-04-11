@@ -1,0 +1,5 @@
+1. vector.end() returns an iterator while vector.back() returns the elements of that position.
+
+2. Int/int is int, so remember to cast int/int into float or double
+
+3. As for select alg., since the range of list going to proceed is dynamic, one should mind the usage of iter_swap with vector.end(), it’s clear to use vector.begin()+right_most_index, which is the end of the range in a vector that we are interested in.
